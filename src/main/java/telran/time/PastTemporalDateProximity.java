@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 
 public class PastTemporalDateProximity implements TemporalAdjuster {
-    //TODO some encapsulation
+    //TOD some encapsulation
 //array of temporals supprting Day, Month, Year (Dates)
     Temporal[] temporals;
 
@@ -41,7 +41,7 @@ public class PastTemporalDateProximity implements TemporalAdjuster {
 
     @Override
     public Temporal adjustInto(Temporal temporal) {
-        // TODO Auto-generated method stub
+        // TOD Auto-generated method stub
         //return the temporal for the encapsulated array that is a nearest in past
         int currentDay = temporal.get(ChronoField.DAY_OF_MONTH);
         int currentMonth = temporal.get(ChronoField.MONTH_OF_YEAR);
